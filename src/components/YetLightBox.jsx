@@ -12,7 +12,7 @@ export default function YetLightBox() {
   const [index, setIndex] = React.useState(-1);
 
   return (
-    <div id="yetlightbox" className="text-center blueBG p-10">
+    <div id="yetlightbox" className="text-center blueBG px-5 py-10 md:p-10">
       <h3 className="text-2xl uppercase text-white mb-10   font-bold text-center"> #Indochino</h3>
       <PhotoAlbum layout="rows" photos={slides} targetRowHeight={300} onClick={({ index: current }) => setIndex(current)} />
 
