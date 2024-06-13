@@ -21,7 +21,7 @@ const Lightbox = () => {
   };
 
   return (
-    <div>
+    <div className="text-center">
       <h3 className="text-2xl uppercase text-black my-4 font-bold text-center"> #Indochino</h3>
       <Gallery photos={photos} onClick={openLightbox} />
       <ModalGateway>

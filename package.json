@@ -19,10 +19,11 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
-    "react-images": "^1.2.0-beta.7",
-    "react-photo-gallery": "^8.0.0",
+    "react-photo-album": "^2.4.0",
+    "sharp": "^0.33.4",
     "tailwind-merge": "^2.3.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "yet-another-react-lightbox": "^3.19.0"
   },
   "devDependencies": {
     "eslint": "^8",

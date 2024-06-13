@@ -15,7 +15,7 @@ const Footer = () => {
           <FaInstagramSquare />
         </a>
       </p>
-      <p className="text-xl mt-4">copyright 2006-2021 Indochino Inc. All rights reserved</p>
+      <p className=" mt-4">copyright 2023-2025 Indochino Inc. All rights reserved</p>
     </div>
   );
 };
