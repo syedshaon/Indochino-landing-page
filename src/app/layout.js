@@ -13,19 +13,19 @@ export const metadata = {
   openGraph: {
     title: "Indochino: Made to Measure",
     description: "The ultimate custom menswear experience is now open in Chinock Centre.",
-    url: "https://mashi-portfolio.vercel.app/",
+    url: "https://indochino-home.vercel.app/",
     siteName: "Indochino: Made to Measure",
 
     images: [
       {
-        url: "https://mashi-portfolio.vercel.app/twitter-image.png",
-        width: 250,
-        height: 256,
+        url: "https://indochino-home.vercel.app/twitter-image.png",
+        width: 512,
+        height: 512,
       },
       {
-        url: "https://mashi-portfolio.vercel.app/mashi.png",
-        width: 1280,
-        height: 630,
+        url: "https://indochino-home.vercel.app/twitter-image.png",
+        width: 512,
+        height: 512,
         alt: "Indochino: Made to Measure",
       },
     ],
