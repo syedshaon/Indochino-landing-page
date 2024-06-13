@@ -1,14 +1,19 @@
-import Image from "next/image";
+import dynamic from "next/dynamic";
 
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import SeeSuits from "@/components/SeeSuits";
 import Speciality from "@/components/Speciality";
-import Slider from "@/components/Slider";
-import Visit from "@/components/Visit";
-import YetLightBox from "@/components/YetLightBox";
+// import Slider from "@/components/Slider";
+const DynamicSlider = dynamic(() => import("@/components/Slider"));
+// import Visit from "@/components/Visit";
+const DynamicVisit = dynamic(() => import("@/components/Visit"));
+const DynamicLightBox = dynamic(() => import("@/components/YetLightBox"));
+
+// import YetLightBox from "@/components/YetLightBox";
 // import Lightbox from "@/components/Lightbox";
-import Footer from "@/components/Footer";
+const DynamicFooter = dynamic(() => import("@/components/Footer"));
+// import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,11 +23,11 @@ export default function Home() {
       <Hero />
       <SeeSuits />
       <Speciality />
-      <Slider />
+      <DynamicSlider />
       {/* <Lightbox /> */}
-      <YetLightBox />
-      <Visit />
-      <Footer />
+      <DynamicLightBox />
+      <DynamicVisit />
+      <DynamicFooter />
     </main>
   );
 }
